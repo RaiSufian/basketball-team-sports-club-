@@ -1,0 +1,76 @@
+.matchFinal-section {
+    padding: 60px 0px 80px 0px;
+    position: relative;
+
+    .shape-bottom {
+        transform: rotate(180deg);
+        overflow: hidden;
+        position: absolute;
+        left: 0px;
+        width: 100%;
+        line-height: 0;
+        direction: ltr;
+        right: 0px;
+        bottom: 0px;
+
+        svg {
+            width: 200%;
+            height: 320px;
+            transform: translateX(-50%) rotateY(180deg);
+            fill: #eb592a;
+        }
+    }
+
+    .final-Card {
+        max-width: 800px;
+        margin-right: auto;
+        margin-left: auto;
+        position: relative;
+
+        .finalCard-head {
+            h2 {
+                font-size: 50px;
+                font-family: 'Oswald', sans-serif;
+                font-weight: 600;
+                text-transform: uppercase;
+                color: #000000;
+            }
+
+        }
+
+        .finalCard-body {
+            background-color: #fff;
+            box-shadow: 0px 5px 15px 0px rgb(0 0 0 / 10%);
+            transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            padding: 20px 20px 20px 20px;
+
+            img {
+                width: 55%;
+            }
+
+            h3 {
+                margin-top: 10px;
+                font-size: 32px;
+                font-weight: 600;
+            }
+
+            h6 {
+                font-size: 50px;
+                font-weight: 700;
+                line-height: 1em;
+            }
+
+            button {
+                fill: #FFFFFF;
+                color: #FFFFFF;
+                background-color: #EB592A;
+                border-radius: 0px 0px 0px 0px;
+                padding: 20px 38px 20px 38px;
+                border: 0px;
+            }
+
+        }
+    }
+}

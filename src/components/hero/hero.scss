@@ -1,0 +1,51 @@
+.hero-section {
+    background-image: url('../../img/hero.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+
+    .herobackground-overlay {
+        background-color: #000000;
+        opacity: 0.35;
+        transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        position: absolute;
+        z-index: -1;
+    }
+
+    .hero-content {
+        max-width: 1180px;
+        min-height: 800px;
+        display: flex;
+        align-items: center;
+
+        .hero-heading {
+            font-size: 62px;
+            color: #FFFFFF;
+            font-family: 'Oswald', sans-serif;
+            text-transform: uppercase;
+            font-weight: 500;
+        }
+
+        p {
+            font-size: 16px;
+            color: #FFFFFF;
+            font-family: 'Oswald', sans-serif;
+            text-transform: uppercase;
+        }
+
+        button {
+            fill: #FFFFFF;
+            color: #FFFFFF;
+            background-color: #eb592a;
+            border-radius: 0px 0px 0px 0px;
+            padding: 20px 38px 20px 38px;
+        }
+    }
+
+}

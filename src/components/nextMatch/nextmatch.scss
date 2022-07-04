@@ -1,0 +1,71 @@
+.nextmatch {
+    background-color: #eb592a;
+    position: relative;
+
+    .shape-bottom {
+        transform: rotate(0deg);
+        overflow: hidden;
+        position: absolute;
+        left: 0px;
+        width: 100%;
+        line-height: 0;
+        direction: ltr;
+        right: 0px;
+        top: 200px;
+
+        svg {
+            width: 200%;
+            height: 320px;
+            transform: translateX(-50%) rotateY(180deg);
+             fill: #eb592a;
+        }
+    }
+
+    .next-detials {
+        span {
+            font-size: 18px;
+            color: #fff;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+
+        h2 {
+            font-size: 42px;
+            color: #fff;
+            font-weight: 600;
+            line-height: 1.1em;
+            text-transform: uppercase;
+        }
+
+        button {
+            fill: #000000;
+            color: #000000;
+            background-color: #FFFFFF;
+            border-radius: 0px 0px 0px 0px;
+            padding: 20px 38px 20px 38px;
+            border: 0px;
+        }
+    }
+    .nextCar{
+        padding: 30px 30px 30px 30px;
+        background-color: #fff;
+        text-align: center;
+        img{
+        
+            width: 80%;
+        }
+        h3{
+            margin-top: 15px;
+            font-size: 22px;
+            font-weight: 600;
+            text-transform: uppercase;
+            font-family: 'Oswald', sans-serif;
+        }
+        h4{
+            font-size: 40px;
+            font-weight: 800;
+            text-transform: uppercase;
+            font-family: 'Oswald', sans-serif;
+        }
+    }
+}
